@@ -93,7 +93,7 @@ function handlePlayerInput(button) {
 
 function updateGridCell(button) {
     const gridCellImg = document.createElement("img");
-    gridCellImg.src = gameState.playerState.currentTurn === "player1" ? "/assets/images/cross.jpg" : "/assets/images/circle.jpg";
+    gridCellImg.src = gameState.playerState.currentTurn === "player1" ? "assets/images/cross.jpg" : "assets/images/circle.jpg";
     gridCellImg.alt = gameState.playerState.currentTurn === "player1" ? "X" : "O";
     gridCellImg.className = "game-grid-animate-shape-shrink";
 
