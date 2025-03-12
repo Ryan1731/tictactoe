@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+
+    <!-- Basic SEO Meta Tags -->
+    <meta name="description" content="A personal Tic Tac Toe project by Ryan Tan, featuring a clean, interactive, and responsive UI inspired by Frontend Mentor. Built with HTML, CSS, and JavaScript.">
+    <meta name="keywords" content="Tic Tac Toe, Web Game, JavaScript Game, Frontend Mentor Inspired, Interactive UI, Responsive Web Design, CSS Animations, Fun Coding Project, Game Development, Web Development Challenge">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Ryan Tan">
+    <link rel="canonical" href="https://www.ryan1731.github.io/tictactoe">
+
+    <!-- Open Graph Meta Tags (for social media sharing) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tic Tac Toe - A Web Game by Ryan Tan">
+    <meta property="og:description" content="Play a modern, interactive Tic Tac Toe game built with HTML, CSS, and JavaScript. Inspired by Frontend Mentor, designed for all screen sizes.">
+    <meta property="og:url" content="https://www.ryan1731.github.io/tictactoe">
+    <meta property="og:image" content="/assets/images/tictactoe-preview.png"> 
+    <meta property="og:site_name" content="Tic Tac Toe by Ryan Tan">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/x-icon" href="assets/favicon_io/favicon.ico">
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest">
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <h1>Tic Tac Toe</h1>
+        <div class="top-section">
+            <p id="output" class="turquoise">Player 1's Turn</p>
+            <button class="restart-btn" id="restartBtn">
+                <img src="/assets/images/restart-icon.jpg" alt="restart-game">
+            </button>
+        </div>
+        <div class="game-grid-wrapper">
+            <div class="game-grid" id="game-grid">
+                <button data-tag="1"></button>
+                <button data-tag="2"></button>
+                <button data-tag="3"></button>
+                <button data-tag="4"></button>
+                <button data-tag="5"></button>
+                <button data-tag="6"></button>
+                <button data-tag="7"></button>
+                <button data-tag="8"></button>
+                <button data-tag="9"></button>
+                <div class="player-1-points">
+                    <p class="scoreboard-heading-text">PLAYER 1</p>
+                    <p class="player-1-score-tag" id="player-1-score-tag">0</p>  
+                </div>
+                <div class="game-draws">
+                    <p class="scoreboard-heading-text">TIES</p>
+                    <p class="draw-counts-tag" id="draw-counts-tag">0</p>  
+                </div>
+                <div class="player-2-points">
+                    <p class="scoreboard-heading-text">PLAYER 2</p>
+                    <p class="player-2-score-tag" id="player-2-score-tag">0</p>  
+                </div>
+            </div>
+            <div class="winning-line" id="winning-line"></div>
+        </div>
+        <footer>
+            <p>&copy; 2025 Made in Australia. <a href="https://github.com/ryan1731/tictactoe">Github</a></p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
