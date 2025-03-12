@@ -167,10 +167,9 @@ function endGame() {
 function handleTouchOrMouseEnd(event, button) {
     // Prevents default behavior (like scrolling or zooming)
     event.preventDefault();
-    
+    button.disabled = true;
     const gridCellImg = button.querySelector("img");
     gridCellImg.className = "shape-grow";
-    button.disabled = true;
 }
 
 window.addEventListener("load", function() {
