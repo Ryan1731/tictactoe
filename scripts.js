@@ -85,7 +85,7 @@ function updateUIMessage(message, color) {
 }
 
 function handlePlayerInput(button) {
-    if (button.innerHTML != "") return;
+    if (button.innerHTML !== "") {return};
     updateGridCell(button);
     updatePlayerArray(button); 
     checkPlayerMoves();
