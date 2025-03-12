@@ -17,7 +17,7 @@ Responsive Design: Optimized for all screen sizes
 /*** Import Fonts ***/
 @font-face {
     font-family: Nunito;
-    src: url(/assets/fonts/Nunito-VariableFont_wght.ttf);
+    src: url(assets/fonts/Nunito-VariableFont_wght.ttf);
 }
 
 /*** CSS Reset ***/
@@ -27,7 +27,6 @@ Responsive Design: Optimized for all screen sizes
     padding: 0;
     margin: 0;
     list-style: none;
-    font-family: 'Courier New', Courier, monospace;
     font-family: 'Nunito', sans-serif;
 }
 
