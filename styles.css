@@ -34,6 +34,9 @@ Responsive Design: Optimized for all screen sizes
     -ms-user-select: none;     
     /* Disable long-press callout on iOS */
     -webkit-touch-callout: none;
+    /* Disable drag behaviour */
+    -webkit-user-drag: none; /* Safari/iOS */
+    user-drag: none;
 }
 
 /*** Design Styles ***/
