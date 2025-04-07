@@ -28,6 +28,7 @@ Responsive Design: Optimized for all screen sizes
     margin: 0;
     list-style: none;
     font-family: 'Nunito', sans-serif;
+    user-select: none;
 }
 
 /*** Design Styles ***/
