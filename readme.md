@@ -9,6 +9,11 @@ A simple Tic-Tac-Toe game built with HTML, CSS and JavaScript. This game allows 
 * Basic game logic: The game checks for win conditions (vertical, horizontal, diagonal) and handles draw scenarios.
 * Responsive Design: The game is playable on various devices and screen sizes.
 
+## User Interface
+User interface inspired based on a design from Frontend Mentor. This project is not an official challenge submission.
+Original design reference: 
+https://www.frontendmentor.io/challenges/tic-tac-toe-game-Re7ZF_E2v
+
 ## Demo
 You can try the game live here:
 https://ryan1731.github.io/tictactoe
