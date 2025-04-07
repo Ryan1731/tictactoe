@@ -174,8 +174,19 @@ function handleTouchOrMouseEnd(event, button) {
     gridCellImg.className = "shape-grow";
 }
 
+function preloadImages(...imagePaths) {
+    imagePaths.forEach((path) => {
+        const img = new Image();
+        img.src = path;
+    });
+}
+
 window.addEventListener("load", function() {
     initialiseEventListeners();
+    preloadImages(
+        "assets/images/cross.jpg",
+        "assets/images/circle.jpg"
+    );
 });
 
 
