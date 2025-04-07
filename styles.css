@@ -29,6 +29,11 @@ Responsive Design: Optimized for all screen sizes
     list-style: none;
     font-family: 'Nunito', sans-serif;
     user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none;     
+    /* Disable long-press callout on iOS */
+    -webkit-touch-callout: none;
 }
 
 /*** Design Styles ***/
